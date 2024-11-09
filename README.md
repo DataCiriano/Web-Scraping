@@ -1,5 +1,5 @@
 # Prácticas Tipología y ciclo de vida de los datos
-En este repositoriose encuentran las diferentes entregas de prácticas de la Asignatura Tipología y ciclo de vida de los datos del Master universitario de Ciencia de Datos de la Universitat Oberta de Catalunya
+En este repositorio se encuentran las diferentes entregas de prácticas de la Asignatura Tipología y ciclo de vida de los datos del Master universitario de Ciencia de Datos de la Universitat Oberta de Catalunya
 
 Nombres de los integrantes del grupo:
   - Miguel Ciriano Martín
