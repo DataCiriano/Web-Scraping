@@ -10,10 +10,12 @@ Descriptivo de los archivos:
   - Convocatorias.csv: El archivo resultante de la ejecución de Scraper_ayudas_general.py con la información de las ayudas
   - scraper.ipynb: Archivo que contiene el código Python necesario para extraer todas las instancias de ayudas entregadas en un rango de tiempo.
   - Ayudas_entregadas.csv: Archivo resultante de la ejecución de scraper.ipynb con todas las instancias de ayudas entregadas a empresas
+  - Modelado_datos.ipynb: Archivo que contiene el modelado de los datos para predecir la concesión de ayudas o subvenciones futuras.
 
 Cómo usar los archivos de código del repositorio:
   - Scraper_ayudas_general: Contiene un campo parametrizable, "num_paginas". Como la información se ofrece paginada en el sitio web, podemos ajustar la cantidad de páginas que avanzaremos para extraer información. Cada página contiene 10 elementos por lo que extraeremos 10 * num_paginas como cantidad de resultados final. En este caso hemos decidido utilizar la información más reciente para mantener la representatividad futura también y nos hemos decidido por num_paginas = 50.
 
   - scraper.ipynb: Contiene dos campos parametrizables principales, "start_page" y "end_page". Con estos dos campos seleccionaremos la página inicial y la final sobre las que iterar en nuestra búsqueda de información.
 
+  - Modelado_datos.ipynb: ejecución secuencial ordenada de las diferentes celdas del notebook.
 DOI: 10.5281/zenodo.14060197
